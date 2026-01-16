@@ -134,7 +134,7 @@
 
 # 
 
-# \## Phase 7 — Interview Preparation
+# \## Phase 7 — Presentation Preparation
 
 # \- \[ ] Prepare 5-minute project walkthrough
 
@@ -168,7 +168,7 @@
 
 # | Final Integration | Not Started |
 
-# | Interview Prep | Not Started |
+# | Presentation Prep | Not Started |
 
 # 
 
