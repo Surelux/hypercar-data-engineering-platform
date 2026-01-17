@@ -1,1 +1,86 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Virtual environments
 .venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+.history/
+*.code-workspace
+
+# -----------------------------
+# OS-specific
+# -----------------------------
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS (in case repo is opened on Mac)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# -----------------------------
+# Logs and temp files
+# -----------------------------
+*.log
+*.tmp
+*.temp
+
+# -----------------------------
+# Data Engineering Project
+# -----------------------------
+# Raw and intermediate data (keep your repo clean)
+data/raw/
+data/intermediate/
+data/tmp/
+
+# Large exports or generated files
+exports/
+outputs/
+reports/generated/
+
+# -----------------------------
+# SQL Server / Database
+# -----------------------------
+*.bak
+*.mdf
+*.ldf
+
+# -----------------------------
+# Environment / Secrets
+# -----------------------------
+.env
+.env.*
+*.key
+*.pem
+
+# -----------------------------
+# Build / Packaging
+# -----------------------------
+build/
+dist/
+site/
