@@ -1,184 +1,78 @@
-# This roadmap outlines the full development plan for the Hypercar Data Engineering Platform, including milestones, phases, and progress tracking.
+# Project Roadmap
+
+
+
+### This project is organized into five phases, each building on the previous one to create a complete end‑to‑end data engineering and analytics platform.
+
+
+
+## Phase 1 — Telemetry Data Warehouse (Completed)
+
+###### \- \[x] Design and implement the star schema (DimVehicle, DimTime, DimLocation, FactTelemetry)
+
+###### \- \[x] Build staging layer and load raw telemetry data
+
+###### \- \[x] Develop ETL stored procedures for all dimensions and fact tables
+
+###### \- \[x] Implement error logging and validation checks
+
+###### \- \[x] Create a complete README with ERD, ETL flow, and documentation
+
+### 
+
+## Phase 2 — Power BI Integration for Telemetry
+
+###### \- \[ ] Populate the warehouse with expanded sample telemetry data
+
+###### \- \[ ] Build a Power BI semantic model connected to SQL Server
+
+###### \- \[ ] Create dashboards for speed trends, battery health, motor temperature, and location analytics
+
+###### \- \[ ] Validate DAX measures and model relationships
+
+###### \- \[ ] Document the analytics layer and publish visuals
 
 # 
 
-# ---
+## Phase 3 — Manufacturing \& ERP Warehouse Expansion
+
+###### \- \[ ] Add new dimensions: DimSupplier, DimPart, DimWorkCenter
+
+###### \- \[ ] Add new fact tables: FactWorkOrder, FactInventoryMovement
+
+###### \- \[ ] Create staging tables for ERP data (Inventory, BOM, WorkOrders, Suppliers)
+
+###### \- \[ ] Develop ETL pipelines for all new dimensions and facts
+
+###### \- \[ ] Update ERD and README to reflect expanded architecture
+
+###### \- \[ ] Ensure Power BI compatibility for the expanded model
 
 # 
 
-# \## Phase 0 — Environment Setup
+## Phase 4 — Power BI Dashboards for Manufacturing
 
-# \- \[x] Install SQL Server Developer Edition
+###### \- \[ ] Build dashboards for supplier performance, work order efficiency, and inventory movement
 
-# \- \[x] Install SSMS
+###### \- \[ ] Add drill‑through and cross‑domain analytics (Telemetry + ERP)
 
-# \- \[x] Install Python and required libraries
+###### \- \[ ] Finalize and publish all dashboards
 
-# \- \[x] Install Power BI Desktop
-
-# \- \[x] Set up GitHub repository
+###### \- \[ ] Document insights and analytical use cases
 
 # 
 
-# ---
+## Phase 5 — Final Project Presentation
+
+###### \- \[ ] Prepare a concise, professional presentation covering architecture, ETL, modeling, and dashboards
+
+###### \- \[ ] Include ERD, data flows, and key insights
+
+###### \- \[ ] Add the presentation or video walkthrough to the repository
 
 # 
 
-# \## Phase 1 — SQL Server Data Warehouse
-
-# \- \[x] Design ERD (fact and dimension tables)
-
-# \- \[x] Create database schema
-
-# \- \[x] Build staging, warehouse, and logging tables
-
-# \- \[x] Write ETL stored procedures
-
-# \- \[ ] Add indexing and performance tuning
-
-# \- \[ ] Document schema and decisions
-
 # 
 
-# ---
 
-# 
-
-# \## Phase 2 — ERP Simulation
-
-# \- \[ ] Create ERP-style tables (Inventory, BOM, WorkOrders, Suppliers, etc.)
-
-# \- \[ ] Generate synthetic ERP data using Python
-
-# \- \[ ] Build staging and transformation logic
-
-# \- \[ ] Add data validation rules
-
-# \- \[ ] Implement Great Expectations checks
-
-# \- \[ ] Document ERP data model
-
-# 
-
-# ---
-
-# 
-
-# \## Phase 3 — Telemetry Simulation
-
-# \- \[ ] Define telemetry schema (speed, torque, GPS, SOC, timestamp, vehicle ID)
-
-# \- \[ ] Build Python telemetry generator
-
-# \- \[ ] Load telemetry into SQL Server staging
-
-# \- \[ ] Transform and partition telemetry data
-
-# \- \[ ] Optimize performance
-
-# \- \[ ] Document telemetry pipeline
-
-# 
-
-# ---
-
-# 
-
-# \## Phase 4 — Python ETL Automation
-
-# \- \[ ] Create Prefect flows for ERP and telemetry
-
-# \- \[ ] Add logging and monitoring
-
-# \- \[ ] Add retry logic and error handling
-
-# \- \[ ] Document ETL orchestration
-
-# 
-
-# ---
-
-# 
-
-# \## Phase 5 — Power BI Dashboards
-
-# \- \[ ] Hypercar Performance Dashboard
-
-# \- \[ ] Manufacturing Analytics Dashboard
-
-# \- \[ ] Supplier Quality Dashboard
-
-# \- \[ ] Add DAX measures and data model diagrams
-
-# \- \[ ] Document dashboard logic
-
-# 
-
-# ---
-
-# 
-
-# \## Phase 6 — Final Integration
-
-# \- \[ ] Create full architecture diagram
-
-# \- \[ ] Build master ETL pipeline
-
-# \- \[ ] Create documentation wiki (ERD, data dictionary, flowcharts)
-
-# \- \[ ] Polish GitHub repo with visuals and README
-
-# 
-
-# ---
-
-# 
-
-# \## Phase 7 — Presentation Preparation
-
-# \- \[ ] Prepare 5-minute project walkthrough
-
-# \- \[ ] Prepare technical explanations (ETL, SQL tuning, data quality, warehouse design)
-
-# \- \[ ] Create architecture summary page
-
-# 
-
-# ---
-
-# 
-
-# \## Status Overview
-
-# | Phase | Status |
-
-# |-------|--------|
-
-# | Environment Setup | Completed |
-
-# | Data Warehouse | In Progress |
-
-# | ERP Simulation | Not Started |
-
-# | Telemetry Simulation | Not Started |
-
-# | Python ETL Automation | Not Started |
-
-# | Power BI Dashboards | Not Started |
-
-# | Final Integration | Not Started |
-
-# | Presentation Prep | Not Started |
-
-# 
-
-# ---
-
-# 
-
-# \## Notes
-
-# \- This roadmap will be updated as development progresses.
-
-# \- Each phase includes documentation to maintain clarity and transparency.
 
