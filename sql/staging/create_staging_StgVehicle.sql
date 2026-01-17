@@ -1,7 +1,7 @@
 -- Staging Table: RawVehicle
 -- Holds raw vehicle metadata before ETL processing
 
-CREATE TABLE staging.RawVehicle (
+CREATE TABLE staging.StgVehicle (
     VIN NVARCHAR(50),
     Model NVARCHAR(100),
     Make NVARCHAR(100),

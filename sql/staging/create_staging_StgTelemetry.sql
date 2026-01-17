@@ -1,7 +1,7 @@
--- Staging Table: RawTelemetry
+-- Staging Table: StgTelemetry 
 -- Holds raw telemetry data before ETL processing
 
-CREATE TABLE staging.RawTelemetry (
+CREATE TABLE staging.StgTelemetry (
     VIN NVARCHAR(50),
     TimestampUTC DATETIME2,
     Speed FLOAT,
