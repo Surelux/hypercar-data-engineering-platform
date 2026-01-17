@@ -26,13 +26,13 @@
 
 # \## Phase 1 — SQL Server Data Warehouse
 
-# \- \[ ] Design ERD (fact and dimension tables)
+# \- \[x] Design ERD (fact and dimension tables)
 
-# \- \[ ] Create database schema
+# \- \[x] Create database schema
 
-# \- \[ ] Build staging, warehouse, and logging tables
+# \- \[x] Build staging, warehouse, and logging tables
 
-# \- \[ ] Write ETL stored procedures
+# \- \[x] Write ETL stored procedures
 
 # \- \[ ] Add indexing and performance tuning
 

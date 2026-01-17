@@ -1,0 +1,8 @@
+CREATE SCHEMA dw;
+GO
+
+CREATE SCHEMA staging;
+GO
+
+CREATE SCHEMA etl;
+GO
